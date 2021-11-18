@@ -56,7 +56,7 @@ const Reviews = ({ reviews, tv }) => {
       {reviews.length === 0 && (
         <div className="reviews-list pb-8">
           <p className="py-4">
-            We don't have any reviews for {tv.name || tv.original_title}.
+            We dont have any reviews for {tv.name || tv.original_title}.
           </p>
         </div>
       )}

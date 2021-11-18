@@ -67,7 +67,7 @@ const ShowDetails = ({ tv }) => {
             {tv.overview}
           </p>
           <p className="font-thin text-base text-black opacity-90">
-            We don't have an overview translated in English. Help us expand our
+            We dont have an overview translated in English. Help us expand our
             database by adding one.
           </p>
           <div className="creator-tv-grid mt-5">

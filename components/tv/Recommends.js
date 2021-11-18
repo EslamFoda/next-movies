@@ -60,7 +60,7 @@ const Recommends = ({ recommends }) => {
       </div>
 
       {recommends.length === 0 && (
-        <div className="px-10 pb-8">We don't have any recommends.</div>
+        <div className="px-10 pb-8">We dont have any recommends.</div>
       )}
     </div>
   );
