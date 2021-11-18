@@ -38,13 +38,7 @@ const Credits = ({ credits }) => {
                       className={"image"}
                     />
                   ) : (
-                    <Image
-                      className="img-cast-notfound"
-                      src={user}
-                      alt=""
-                      layout="fill"
-                      className={"image"}
-                    />
+                    <Image src={user} alt="" layout="fill" className="image" />
                   )}
                 </div>
                 <div className="cast-details">

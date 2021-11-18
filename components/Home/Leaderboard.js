@@ -1,3 +1,5 @@
+import Image from "next/image";
+import user from '../../assets/user.svg'
 const Leaderboard = () => {
   return (
     <div className="leaderboard-container">
@@ -18,9 +20,12 @@ const Leaderboard = () => {
         <div className="leaderboard-left">
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://www.themoviedb.org/t/p/w64_and_h64_face/A1pIXQZD86MzfP5pvr37C68YiGv.jpg"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -37,9 +42,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://www.themoviedb.org/t/p/w64_and_h64_face/6ekZQXHUms5hXLr4nqLlQLoQEge.jpg"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -56,9 +64,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://secure.gravatar.com/avatar/a6c79920adc2fbfb7e60b0fd8a14ebb9.jpg?s=45"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -75,9 +86,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://secure.gravatar.com/avatar/d4036592a51a6170e0a71e2f6fd8b6f4.jpg?s=45"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -94,9 +108,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://www.themoviedb.org/t/p/w64_and_h64_face/tPJMP5E6HaU7pF3xAYWLzuuwwR1.jpg"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -115,9 +132,12 @@ const Leaderboard = () => {
         <div className="leaderboard-right">
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://secure.gravatar.com/avatar/3e88721993c8eb0fbb11793d32445f43.jpg?s=64"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -134,9 +154,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://www.themoviedb.org/t/p/w64_and_h64_face/hjvyN4SrXqXy316GkbOshW8sGXJ.jpg"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -153,9 +176,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://www.themoviedb.org/t/p/w64_and_h64_face/5BvxGhRE7yjtbHCXgrTxPk9hBXp.jpg"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -172,9 +198,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://secure.gravatar.com/avatar/41b5a847ec3ed2acb5af028f04906e05.jpg?s=45"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">
@@ -191,9 +220,12 @@ const Leaderboard = () => {
           </div>
           <div className="single-person">
             <div className="person-img-container">
-              <img
-                src="https://secure.gravatar.com/avatar/9dc06741508913ee1d1d61d24ba65bf8.jpg?s=45"
+              <Image
+                src={user}
                 alt=""
+                layout="responsive"
+                width="50"
+                height="50"
               />
             </div>
             <div className="single-person-right">

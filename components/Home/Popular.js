@@ -44,7 +44,7 @@ const Popular = ({ shows, movies }) => {
     <div className="popular-cont">
       <div className="Popular-section">
         <div className="ontv-flex">
-          <h1>What's Popular</h1>
+          <h1>Whats Popular</h1>
           <div onClick={handleSwitch} className="ontv-container">
             <div className="ontv-wrapper first wrapper-active">
               <span className="ontv first ontv-active">On Tv</span>
